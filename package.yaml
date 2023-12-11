@@ -1,2 +1,4 @@
 name: pictogrammers_icons
 description: Icons from the Pictogrammers project and Google Material Design.
+environment:
+  sdk: ^2.0.0-alpha.97

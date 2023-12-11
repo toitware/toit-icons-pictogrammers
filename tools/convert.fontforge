@@ -1,0 +1,8 @@
+#!/usr/bin/fontforge
+
+# Copyright (C) 2020 Toitware ApS. All rights reserved.
+
+Open($argv[1])
+BuildAccented()
+BitmapsAvail([Strtol($argv[2])])
+Generate($argv[3], "bdf", 0, 100)
